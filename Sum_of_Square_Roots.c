@@ -3,12 +3,12 @@
 int main()
 {
     int n,m,i;
-    float r,a=0;
+    float a,r=0;
     scanf("%d%d",&n,&m);
     for(i=n;i<=m;i++)
     {
-        r=sqrt(i);
-        a=a+r;
+        a=sqrt(i);
+        r=r+a;
     }
-    printf("%.2f",a);
+    printf("%.2f",r);
 }
