@@ -7,7 +7,7 @@ int main()
     {
         if(n%i==0&&m%i==0)
         {
-        h=i;
+            h=i;
         }
     }
     printf("%d",h);
