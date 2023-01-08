@@ -1,19 +1,19 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,s=0;
+    int n,i,r=0;
     scanf("%d",&n);
     for(i=1;i<n;i++)
     {
-    if(n%i==0)
-    {
-        s=s+i;
+        if(n%i==0)
+        {
+            r=r+i;
+        }
     }
-}
-    if(s==n)
+    if(r==n)
     printf("PERFECT");
-    else if(s<n)
+    else if(r<n)
     printf("DEFICIENT");
-    else 
+    else
     printf("ABUNDANT");
 }
