@@ -5,11 +5,7 @@ int main()
     scanf("%d%d%d%d",&n,&k,&x,&y);
     s=k*x;
     if(x<y)
-    {
-        printf("%d",s+x*(n-k));
-    }
+    printf("%d",s+x*(n-k));
     else
-    {
-        printf("%d",s+y*(n-k));
-    }
+    printf("%d",s+y*(n-k));
 }
