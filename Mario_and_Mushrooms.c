@@ -9,4 +9,4 @@ int main()
     printf("HUGE");
     else if(n%3==2)
     printf("SMALL");
-}
+    }
