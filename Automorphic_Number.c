@@ -2,18 +2,14 @@
 #include<math.h>
 int main()
 {
-    int n,r,q,s,e;
+    int n,m,r,s,q;
     scanf("%d",&n);
-    e=n*n;
+    m=n*n;
     s=log10(n)+1;
     q=pow(10,s);
-    r=e%q;
+    r=m%q;
     if(r==n)
-    {
     printf("Automorphic Number");
-    }
     else
-{
     printf("Not an Automorphic Number");
-}
 }
